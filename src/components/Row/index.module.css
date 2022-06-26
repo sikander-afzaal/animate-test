@@ -1,0 +1,30 @@
+.row {
+  overflow: hidden;
+  white-space: nowrap;
+  height: calc(var(--height) * (0.1666));
+  display: flex;
+  flex-flow: row nowrap;
+  pointer-events: none;
+}
+
+.row p {
+  white-space: nowrap;
+  user-select: none;
+  color: rgb(51, 51, 51);
+  font-size: calc(var(--height) * (8 / 100));
+  display: flex;
+  align-items: center;
+  gap: 4vw;
+  padding: 0 2vw;
+}
+
+.row p span {
+  line-height: 1;
+}
+
+@media (max-width: 550px) {
+  .row p {
+    gap: 12vw;
+    padding: 0 6vw;
+  }
+}

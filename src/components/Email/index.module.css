@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  height: 35px;
+  align-items: flex-end;
+  gap: 0.5rem;
+}
+
+.iconContainer {
+  border-radius: 2px;
+  align-self: flex-start;
+  cursor: pointer;
+  padding: 0.2rem;
+  line-height: 0;
+}
+
+.iconContainer:hover {
+  background: rgba(217, 217, 217, 0.1);
+}
+
+.container a {
+  color: white;
+}
+
+.feedback {
+  position: absolute;
+  padding: 0.3rem 0.5rem;
+  background: #ffffff1a;
+  visibility: hidden;
+  text-align: center;
+  color: white;
+}
+
+.feedback.active {
+  visibility: visible;
+}

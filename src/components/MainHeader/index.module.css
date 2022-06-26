@@ -1,0 +1,29 @@
+.mainHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+  position: relative;
+}
+
+.mainHeader a {
+  text-align: center;
+}
+.emailConPosition {
+  bottom: -5%;
+  right: 55px;
+}
+
+@media (max-width: 550px) {
+  .mainHeader {
+    justify-content: center;
+    padding: 1rem;
+  }
+
+  .mainHeader img {
+    width: 80%;
+  }
+  .emailCon {
+    display: none;
+  }
+}

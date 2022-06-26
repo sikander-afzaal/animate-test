@@ -1,0 +1,7 @@
+.container {
+  /* 100 % of screen height - 
+  the padding on the header 1.5 top and bottom plus the content height  -
+  the footer padding - footer height
+  */
+  max-height: var(--height);
+}

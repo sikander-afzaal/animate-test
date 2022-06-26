@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Poppins&family=Tiro+Gurmukhi&display=swap");
+
+body {
+  margin: 0;
+  font-family: "JetBrains Mono", monospace;
+  overscroll-behavior-y: contain;
+  font-family: "JetBrains Mono", monospace;
+  max-width: 100%;
+  max-height: var(--doc-height);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.jetbrains {
+  font-family: "JetBrains Mono", monospace;
+}
+
+.poppins {
+  font-family: "Poppins", sans-serif;
+  font-size: 85%;
+}
+
+.tirogurmukhi {
+  font-family: "Tiro Gurmukhi", serif;
+  font-size: 80%;
+}

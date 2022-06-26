@@ -1,0 +1,50 @@
+.mainFooter {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem;
+  position: relative;
+}
+
+.mainFooter > p {
+  margin: 0;
+  color: #ffffff80;
+}
+
+.mainFooter > p img {
+  vertical-align: middle;
+}
+
+.emailCon {
+  display: none;
+}
+
+@media (max-width: 550px) {
+  .mainFooter {
+    justify-content: center;
+    padding: 1rem;
+  }
+  .mainFooter > p {
+    display: none;
+  }
+
+  .emailCon {
+    display: block;
+    margin-left: calc(0.2rem * 2 + 16px + 0.5rem);
+  }
+}
+
+.emailConPosition {
+  top: -20%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.blinkingCursor {
+  animation: 1s blink steps(2) infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+}

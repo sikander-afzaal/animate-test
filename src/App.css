@@ -1,0 +1,27 @@
+:root {
+  --height: calc(var(--doc-height) - 3rem - 69px - 3rem - 21px);
+}
+
+@media (max-width: 550px) {
+  :root {
+    --height: calc(var(--doc-height) - 2rem - 56px - 2rem - 35px);
+  }
+}
+.bottom-half {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50%;
+  position: absolute;
+  background-color: black;
+  transform-origin: bottom;
+}
+.top-half {
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50%;
+  position: absolute;
+  background-color: black;
+  transform-origin: top;
+}
