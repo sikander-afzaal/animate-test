@@ -4,6 +4,7 @@
   align-items: center;
   padding: 1.5rem;
   position: relative;
+  z-index: -1;
 }
 
 .mainHeader a {
@@ -20,7 +21,7 @@
     padding: 1rem;
   }
 
-  .mainHeader img {
+  .mainHeader svg {
     width: 80%;
   }
   .emailCon {
